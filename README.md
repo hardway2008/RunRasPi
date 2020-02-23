@@ -3,7 +3,7 @@
  * @LastEditors: jlwang
  * @LastEditTime: 2019-09-04 01:43:30
  -->
-# RunningRaspberry
+# Seeing is believing
 
 1. 搭建开发环境： 
 - 使用Filezilla作为ftp客户端，便于在开发机和目标机之间传输文件；
