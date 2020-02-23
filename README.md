@@ -1,7 +1,7 @@
 <!--
  * @Date: 2019-09-04 01:41:04
  * @LastEditors: jlwang
- * @LastEditTime: 2019-09-04 01:43:30
+ * @LastEditTime: 2020-02-23 10:36:43
  -->
 # Seeing is believing
 
@@ -16,4 +16,10 @@
 1. 执行程序：
 	cd scripts && ./run.sh
 
-# Update here!
+# 添加了以下书籍中的source
+- apue3e
+- tlpi
+- csapp chapter11
+- C++ Templates 2e
+- ldd3e
+- CCiA
