@@ -18,3 +18,6 @@
 	cd scripts && ./run.sh
 
 # Update here!
+## 3rdparty
+- opencv-3.4.9
+
