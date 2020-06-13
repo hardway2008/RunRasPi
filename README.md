@@ -1,7 +1,7 @@
 <!--
  * @Date: 2019-09-04 01:41:04
  * @LastEditors: jlwang
- * @LastEditTime: 2019-09-04 01:43:30
+ * @LastEditTime: 2020-06-14 00:52:01
  -->
 # RunRasPi
 ```Seeing is believing!```
@@ -17,4 +17,9 @@
 1. 执行程序：
 	cd scripts && ./run.sh
 
-# Update here!
+
+## 编译第三方库
+### OpenCV
+- https://mindchasers.com/dev/ubuntu-opencv
+
+### Libevent

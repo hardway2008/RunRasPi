@@ -98,7 +98,7 @@ main(int argc, char *argv[])
     /* Create one child for each message queue being monitored */
 
     for (j = 1; j < argc; j++) {
-        switch (fork()) {
+        switch (fork()) {       //why fail to fork???
         case -1:
             errMsg("fork");
             killpg(0, SIGTERM);
