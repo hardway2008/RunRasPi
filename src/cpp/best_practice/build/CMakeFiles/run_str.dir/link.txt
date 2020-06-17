@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -ggdb  -rdynamic CMakeFiles/run_str.dir/dictionary.cpp.o  -o run_str 

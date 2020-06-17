@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.cpp
+dictionary.h
+/home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.h
+iostream
+-
+
+/home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.h
+cstdint
+-
+map
+-
+memory
+-
+
