@@ -123,32 +123,32 @@ run_str/fast:
 	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/build
 .PHONY : run_str/fast
 
-dictionary.o: dictionary.cpp.o
+lru_cache.o: lru_cache.cpp.o
 
-.PHONY : dictionary.o
+.PHONY : lru_cache.o
 
 # target to build an object file
-dictionary.cpp.o:
-	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/dictionary.cpp.o
-.PHONY : dictionary.cpp.o
+lru_cache.cpp.o:
+	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/lru_cache.cpp.o
+.PHONY : lru_cache.cpp.o
 
-dictionary.i: dictionary.cpp.i
+lru_cache.i: lru_cache.cpp.i
 
-.PHONY : dictionary.i
+.PHONY : lru_cache.i
 
 # target to preprocess a source file
-dictionary.cpp.i:
-	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/dictionary.cpp.i
-.PHONY : dictionary.cpp.i
+lru_cache.cpp.i:
+	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/lru_cache.cpp.i
+.PHONY : lru_cache.cpp.i
 
-dictionary.s: dictionary.cpp.s
+lru_cache.s: lru_cache.cpp.s
 
-.PHONY : dictionary.s
+.PHONY : lru_cache.s
 
 # target to generate assembly for a file
-dictionary.cpp.s:
-	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/dictionary.cpp.s
-.PHONY : dictionary.cpp.s
+lru_cache.cpp.s:
+	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/lru_cache.cpp.s
+.PHONY : lru_cache.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run_str"
 	@echo "... edit_cache"
-	@echo "... dictionary.o"
-	@echo "... dictionary.i"
-	@echo "... dictionary.s"
+	@echo "... lru_cache.o"
+	@echo "... lru_cache.i"
+	@echo "... lru_cache.s"
 .PHONY : help
 
 

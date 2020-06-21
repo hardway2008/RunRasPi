@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.cpp
-dictionary.h
-/home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.h
+/home/leo/mycode/RunRasPi/src/cpp/best_practice/lru_cache.cpp
+lru_cache.h
+/home/leo/mycode/RunRasPi/src/cpp/best_practice/lru_cache.h
+cstdint
+-
 iostream
 -
 
-/home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.h
-cstdint
--
-map
--
-memory
+/home/leo/mycode/RunRasPi/src/cpp/best_practice/lru_cache.h
+unordered_map
 -
 

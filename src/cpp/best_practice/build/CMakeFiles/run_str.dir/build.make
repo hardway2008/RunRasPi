@@ -57,38 +57,38 @@ include CMakeFiles/run_str.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run_str.dir/flags.make
 
-CMakeFiles/run_str.dir/dictionary.cpp.o: CMakeFiles/run_str.dir/flags.make
-CMakeFiles/run_str.dir/dictionary.cpp.o: ../dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/mycode/RunRasPi/src/cpp/best_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_str.dir/dictionary.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_str.dir/dictionary.cpp.o -c /home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.cpp
+CMakeFiles/run_str.dir/lru_cache.cpp.o: CMakeFiles/run_str.dir/flags.make
+CMakeFiles/run_str.dir/lru_cache.cpp.o: ../lru_cache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/mycode/RunRasPi/src/cpp/best_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_str.dir/lru_cache.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_str.dir/lru_cache.cpp.o -c /home/leo/mycode/RunRasPi/src/cpp/best_practice/lru_cache.cpp
 
-CMakeFiles/run_str.dir/dictionary.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_str.dir/dictionary.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.cpp > CMakeFiles/run_str.dir/dictionary.cpp.i
+CMakeFiles/run_str.dir/lru_cache.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_str.dir/lru_cache.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo/mycode/RunRasPi/src/cpp/best_practice/lru_cache.cpp > CMakeFiles/run_str.dir/lru_cache.cpp.i
 
-CMakeFiles/run_str.dir/dictionary.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_str.dir/dictionary.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.cpp -o CMakeFiles/run_str.dir/dictionary.cpp.s
+CMakeFiles/run_str.dir/lru_cache.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_str.dir/lru_cache.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo/mycode/RunRasPi/src/cpp/best_practice/lru_cache.cpp -o CMakeFiles/run_str.dir/lru_cache.cpp.s
 
-CMakeFiles/run_str.dir/dictionary.cpp.o.requires:
+CMakeFiles/run_str.dir/lru_cache.cpp.o.requires:
 
-.PHONY : CMakeFiles/run_str.dir/dictionary.cpp.o.requires
+.PHONY : CMakeFiles/run_str.dir/lru_cache.cpp.o.requires
 
-CMakeFiles/run_str.dir/dictionary.cpp.o.provides: CMakeFiles/run_str.dir/dictionary.cpp.o.requires
-	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/dictionary.cpp.o.provides.build
-.PHONY : CMakeFiles/run_str.dir/dictionary.cpp.o.provides
+CMakeFiles/run_str.dir/lru_cache.cpp.o.provides: CMakeFiles/run_str.dir/lru_cache.cpp.o.requires
+	$(MAKE) -f CMakeFiles/run_str.dir/build.make CMakeFiles/run_str.dir/lru_cache.cpp.o.provides.build
+.PHONY : CMakeFiles/run_str.dir/lru_cache.cpp.o.provides
 
-CMakeFiles/run_str.dir/dictionary.cpp.o.provides.build: CMakeFiles/run_str.dir/dictionary.cpp.o
+CMakeFiles/run_str.dir/lru_cache.cpp.o.provides.build: CMakeFiles/run_str.dir/lru_cache.cpp.o
 
 
 # Object files for target run_str
 run_str_OBJECTS = \
-"CMakeFiles/run_str.dir/dictionary.cpp.o"
+"CMakeFiles/run_str.dir/lru_cache.cpp.o"
 
 # External object files for target run_str
 run_str_EXTERNAL_OBJECTS =
 
-run_str: CMakeFiles/run_str.dir/dictionary.cpp.o
+run_str: CMakeFiles/run_str.dir/lru_cache.cpp.o
 run_str: CMakeFiles/run_str.dir/build.make
 run_str: CMakeFiles/run_str.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leo/mycode/RunRasPi/src/cpp/best_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run_str"
@@ -99,7 +99,7 @@ CMakeFiles/run_str.dir/build: run_str
 
 .PHONY : CMakeFiles/run_str.dir/build
 
-CMakeFiles/run_str.dir/requires: CMakeFiles/run_str.dir/dictionary.cpp.o.requires
+CMakeFiles/run_str.dir/requires: CMakeFiles/run_str.dir/lru_cache.cpp.o.requires
 
 .PHONY : CMakeFiles/run_str.dir/requires
 

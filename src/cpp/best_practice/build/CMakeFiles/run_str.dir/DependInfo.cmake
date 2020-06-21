@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/leo/mycode/RunRasPi/src/cpp/best_practice/dictionary.cpp" "/home/leo/mycode/RunRasPi/src/cpp/best_practice/build/CMakeFiles/run_str.dir/dictionary.cpp.o"
+  "/home/leo/mycode/RunRasPi/src/cpp/best_practice/lru_cache.cpp" "/home/leo/mycode/RunRasPi/src/cpp/best_practice/build/CMakeFiles/run_str.dir/lru_cache.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

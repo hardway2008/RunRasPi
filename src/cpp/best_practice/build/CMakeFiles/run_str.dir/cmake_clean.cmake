@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run_str.dir/dictionary.cpp.o"
+  "CMakeFiles/run_str.dir/lru_cache.cpp.o"
   "run_str.pdb"
   "run_str"
 )
